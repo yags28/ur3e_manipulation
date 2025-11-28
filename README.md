@@ -29,8 +29,6 @@ ros2 launch msee22_description move_robot.launch.py
 
 In the `ws4/src/py_joint_pub/py_joint_pub/joint_publisher_csv.py` file, change line 18 to your filename. 
 Also, copy and paste your `<username>.csv` file into the `ws4/src/py_joint_pub/py_joint_pub/resource` folder.
-A good way to get your CSV file into eceprog is to upload the file to github, and then run `git pull` on eceprog to download the changes back onto eceprog. Then, you can move the `.csv` file to the `resource` folder. It is also possible to use `scp` (secure copy) to transfer the file from your personal computer to eceprog, similar to an ssh tunnel. There are instructions online if you choose to go down this path.
-
 Once your have added your csv file to the `resource` folder, build and source your workspace. Then, run 
 ```bash
 ros2 launch msee22_description move_robot.launch.py
