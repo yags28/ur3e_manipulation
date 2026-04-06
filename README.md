@@ -52,10 +52,3 @@ Once your have added your csv file to the `resource` folder, build and source yo
 ```bash
 ros2 launch msee22_description move_robot.launch.py
 ```
-and enable the tool0 trail, and take a screenshot of the trajectory for your lab report.
-
-When you are done verifying that your trajectory is successful, upload the CSV file to the Lab4-CSV assignment on Brightspace with the filename `<your purdue username>.csv`. For example, `ldihel.csv`.
-
-### Bonus
-
-For the bonus trajectory, also verify that the joint angles in your `<your purdue username>_bonus.csv` file produces acceptable results before submitting to the Lab4-CSV-bonus assignment on Brightspace.
