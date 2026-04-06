@@ -1,27 +1,10 @@
 # Lab 4
 
-Overleaf Assignment Link [here](https://www.overleaf.com/read/xwftfjrkwcqx#de76e1)
-
 ### Steps 1-3
 For steps 1-3, you can use the MATLAB or Python starter code provided. First, make your own copy personal copy of the Lab 4 repo with the `Use This Template` button. Then, for MATLAB users, you will need to `git clone` this repository onto your personal computer via: If using Python, you have the option of cloning on your personal machine or on eceprog. If using eceprog, please run the `git clone` command from your home directory.
 
 
 ### Step 4
-
-
-#### Instructions for non-eceprog users
-
-If you are not using eceprog, you will need to download the UR description package to the `ws4/src` folder.
-```bash
-cd ~/ece569-fall2025/ws4/src
-git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-cd Universal_Robots_ROS2_Description
-```
-Then checkout the `humble` or `jazzy` branch, depending on which version of ROS you are using. For example:
-```bash
-git checkout origin/humble 
-```
-
 #### Instructions for all users
 
 For all students, you will need to first edit `ws4/src/msee22_description/urdf/msee22.urdf.xacro` depending on if you use humble or jazzy. Follow the instructions on lines 89 and 95.
